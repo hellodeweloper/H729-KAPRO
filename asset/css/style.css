@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway' !important;
+}
+
+body h2{
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    outline: none;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    background: white;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-container {
+    width: 100%;
+    height: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#ham-menu {
+    display: none;
+    cursor: pointer;
+}
+
+nav ul.active {
+    left: 0;
+}
+
+.see-header {
+    background: #B1DDFF;
+}
+
+dl,
+ol,
+ul {
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+.nav-item a {
+    font-family: sans-serif;
+    color: #203253;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav-item:hover a {
+    color: #72B3EA;
+}
+
+.header-text {
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #203253;
+}
+
+.check {
+    color: #203253;
+    justify-content: space-between;
+}
+
+.phone input::placeholder {
+    font-family: sans-serif;
+    color: #929daf;
+}
+
+.phone i {
+    color: #929DAF;
+}
+
+.skedka-button {
+    background: #203253;
+    font-family: sans-serif;
+    width: 75%;
+}
+
+.cases-modal p,
+.cases-modal a,
+.advantage-top h2,
+.swiper-advantage p,
+.cases-header h2,
+.cases-main i,
+.cases-main span,
+.deram-card-body h4,
+.deram-card-body p,
+.author h5,
+.about-work p,
+.contacts p,
+.contacts a,
+.contact-top h2,
+.connect-contact h4,
+.cases-main h6,
+.cases-modal h1 {
+    color: #203253;
+}
+
+.cases-header p,
+.advantage-top p,
+.cases-main p,
+.contact-top p,
+.connect-contact h6 {
+    color: #335D93;
+    font-size: 18px;
+}
+
+.swiper-advantage {
+    width: 240px;
+    height: 182px;
+    background: #F4FAFF;
+}
+
+.swiper-advantage .img-adventage,
+.dream-card,
+.contact-cericle {
+    background: #72B3EA;
+}
+
+.swiper-advantage .img-adventage img,
+.contact-cericle {
+    width: 28px;
+    height: 28px;
+}
+
+.sample-slider {
+    height: calc(calc(180px * 2) + 30px);
+}
+
+.cases-main,
+.suitable,
+.review,
+.contacts ,
+.cases-modal{
+    background: #F4FAFF;
+}
+
+.modal-title{
+    font-size: 48px;
+}
+
+.cases-modal .phone:focus-within{
+    border: 2px solid #72B3EA;
+}
+
+.cases-modal .phone input[type=text]{
+    color: #72B3EA;
+}
+
+
+button{
+    transition: 0.4s;
+}
+
+button:hover{
+    background: #72B3EA;
+}
+
+.cases-title {
+    color: #203253;
+}
+
+.cases-main {
+    height: 522px;
+}
+
+.cases-main i,
+.cases-main span {
+    font-size: 24px;
+}
+
+.cases-main span {
+    font-family: sans-serif;
+}
+
+.cases-img img:nth-child(2) {
+    width: 638px;
+    height: 522px;
+}
+
+.cases-img2 {
+    width: 100%;
+    height: auto;
+}
+
+.cases-btn{
+    background: #203253;
+}
+
+.ship1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.ship1 .road .line li,
+.airplane .road .line li {
+    width: 12px;
+    height: 12px;
+    z-index: -1;
+}
+
+.ship1 .road .line::before,
+.airplane .road .line::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #72B3EA, #72B3EA 30%, transparent 30%, transparent 100%);
+    background-size: 50px;
+    z-index: 1;
+}
+
+.ship {
+    display: none;
+}
+
+.road-1 .line-1,
+.road .line {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.road .line::before,
+.road-1 .line-1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #72B3EA, #72B3EA 50%, transparent 50%, transparent 100%);
+    background-size: 50px;
+    z-index: -1;
+}
+
+.road .line li,
+.road-1 .line-1 li {
+    list-style: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #72B3EA;
+}
+
+.road .line li:nth-of-type(1) {
+    background-color: #fff;
+}
+
+.road-1 img {
+    position: absolute;
+    left: 40rem;
+}
+
+.dream-card,
+.contact-cericle {
+    width: 64px;
+    height: 64px;
+}
+
+.deram-card-body h5,
+.about-work p {
+    color: #335D93;
+}
+
+.deram-card-body h5,
+.deram-card-body p {
+    font-size: 20px;
+}
+
+.suitable{
+    width: 18rem;
+}
+
+.suitable-btn {
+    padding: .9rem 4rem;
+    background: #203253;
+}
+
+.suitable-header {
+    margin-top: 5rem;
+}
+
+.star-group i {
+    color: #72B3EA;
+}
+
+.phone,
+.phone button {
+    width: 75%;
+}
+
+.contacts .phone,
+.cases-modal .phone {
+    background: #E6F1FA;
+}
+
+.contacts .phone input::placeholder {
+    color: #203253;
+    font-size: 15px;
+}
+
+.contact-cericle {
+    color: white;
+}
+
+.contact-top h2 {
+    font-size: 2.3rem;
+}
+
+.footer-bascground {
+    background: #203253;
+}
+
+.footer-bascground .nav-item a {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .cases-main {
+        height: auto;
+    }
+
+    .contact-top h2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .airplane {
+        display: none;
+    }
+
+    .ship {
+        display: block;
+    }
+
+    .road-1 img {
+        position: absolute;
+        left: 40rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cases-header h2 {
+        font-size: 2rem;
+    }
+
+    .footer-first {
+        width: 250px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-title,
+    .header-text {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    #ham-menu {
+        display: block;
+        color: #ffffff;
+    }
+
+    #ham-menu {
+        font-size: 1.2rem;
+        color: #203253;
+    }
+
+    nav ul {
+        background-color: white;
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: 1s;
+        gap: 0;
+    }
+
+    .contact-top h2,
+    .cases-header h2 {
+        font-size: 24px;
+    }
+
+    .suitable {
+        width: 280px;
+    }
+
+    .footer-last-img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .modal-title,
+    .header-text {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .road .line li {
+        list-style: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #72B3EA;
+    }
+
+    .swiper-advantage {
+        width: 100%;
+    }
+
+    .cases-modal p,
+    .cases-header p,
+    .advantage-top p,
+    .cases-main p,
+    .about-work p,
+    .contacts p,
+    .contact-top p {
+        font-size: 15px;
+    }
+
+    .phone,
+    .skedka-button {
+        width: 100%;
+    }
+
+    .icon-text h4 {
+        font-size: 16px;
+    }
+}
